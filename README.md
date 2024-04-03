@@ -2,6 +2,8 @@
 
 This project is used to generate a CSV file of night order charts from a JSON file in the Blood on the Clocktower old JSON format. 
 
+This is a fan project and is no way officially affiliated with The Pandemonium Institude or any other entities realted to Blood on the Clocktower. 
+
 ## Setup
 
 To use this, make sure you have the following
@@ -32,28 +34,29 @@ When you boot the application, it will ask an initial start question of if you w
 
 After this, there will be a series of questions asked, here are the questions below. 
 The questions asked:
-New Character Name - Fill in the character name as written on the character token
+### New Character Name 
+Fill in the character name as written on the character token
 
-1) First Night, 2) Other Nights, 3) Both - Enter in 1 if the character wakes only on the first night, enter 2 if the character only wakes 
+### 1) First Night, 2) Other Nights, 3) Both
+Enter in 1 if the character wakes only on the first night, enter 2 if the character only wakes 
 on each night except the first, enter 3 if the character wakes every night.
 
-[If they wake the first night]
-New Character First Night Description - Fill in the official description of the new character on the first night.
-(can be accessed from online.bloodontheclocktower.com)
+### If they wake the first night
+#### New Character First Night Description
+Fill in the official description of the new character on the first night. (can be accessed from online.bloodontheclocktower.com)
 
-[If they wake the first night]
-What character do they go after in first night order: Enter in the name of the character directly before the new character in the night
-order.
+#### What character do they go after in first night order: 
+Enter in the name of the character directly before the new character in the night order.
 
-[If they wake on a night other than the first]
-New Character Other Night Description - Fill in the official description of the new character on the other night 
-(can be accessed from online.bloodontheclocktower.com)
+### If they wake on a night other than the first
+#### New Character Other Night Description
+Fill in the official description of the new character on the other night (can be accessed from online.bloodontheclocktower.com)
 
-[If they wake on a night other than the first]
-What character do they go after in other night order - Enter in the name of the character directly before the new character in the night 
+#### What character do they go after in other night order
+Enter in the name of the character directly before the new character in the night 
 order. 
 
-New Character Alignment - Enter in the alignment of the character
+### New Character Alignment - Enter in the alignment of the character
 
 
 ## Creating a night chart
