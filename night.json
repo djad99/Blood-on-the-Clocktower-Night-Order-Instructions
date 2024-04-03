@@ -1,0 +1,2200 @@
+{
+    "first_night_characters": [
+        "dusk",
+        "travelers",
+        "philosopher",
+        "kazali",
+        "alchemist",
+        "poppy_grower",
+        "yaggababble",
+        "magician",
+        "minion_info",
+        "snitch",
+        "lunatic",
+        "summoner",
+        "demon_info",
+        "king",
+        "sailor",
+        "marionette",
+        "engineer",
+        "preacher",
+        "lil_monsta",
+        "lleech",
+        "poisoner",
+        "widow",
+        "courtier",
+        "snake_charmer",
+        "godfather",
+        "devils_advocate",
+        "evil_twin",
+        "witch",
+        "cerenovus",
+        "fearmonger",
+        "harpy",
+        "mezepheles",
+        "pukka",
+        "pixie",
+        "damsel",
+        "amnesiac",
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "empath",
+        "fortune_teller",
+        "butler",
+        "grandmother",
+        "clockmaker",
+        "dreamer",
+        "seamstress",
+        "steward",
+        "knight",
+        "noble",
+        "balloonist",
+        "shugenja",
+        "village idiot",
+        "bounty_hunter",
+        "nightwatchman",
+        "cult_leader",
+        "spy",
+        "high_priestess",
+        "general",
+        "chambermaid",
+        "mathematician",
+        "dawn",
+        "leviathan",
+        "vizier"
+    ],
+    "other_night_characters": [
+        "dusk",
+        "travelers",
+        "philosopher",
+        "poppy_grower",
+        "sailor",
+        "engineer",
+        "preacher",
+        "poisoner",
+        "courtier",
+        "innkeeper",
+        "gambler",
+        "snake_charmer",
+        "monk",
+        "devils_advocate",
+        "witch",
+        "cerenovus",
+        "pit-hag",
+        "fearmonger",
+        "harpy",
+        "mezepheles",
+        "scarlet_woman",
+        "summoner",
+        "lunatic",
+        "exorcist",
+        "lycanthrope",
+        "legion",
+        "imp",
+        "zombuul",
+        "pukka",
+        "shabaloth",
+        "po",
+        "fang_gu",
+        "no_dashii",
+        "vortox",
+        "vigormortis",
+        "ojo",
+        "al-hadikhia",
+        "lleech",
+        "lil_monsta",
+        "yaggababble",
+        "kazali",
+        "assassin",
+        "godfather",
+        "gossip",
+        "acrobat",
+        "hatter",
+        "barber",
+        "sweetheart",
+        "sage",
+        "professor",
+        "choirboy",
+        "huntsman",
+        "damsel",
+        "amnesiac",
+        "farmer",
+        "tinker",
+        "moonchild",
+        "grandmother",
+        "ravenkeeper",
+        "empath",
+        "fortune_teller",
+        "undertaker",
+        "dreamer",
+        "flowergirl",
+        "town_crier",
+        "oracle",
+        "seamstress",
+        "juggler",
+        "balloonist",
+        "village idiot",
+        "king",
+        "bounty_hunter",
+        "nightwatchman",
+        "cult_leader",
+        "butler",
+        "spy",
+        "high_priestess",
+        "general",
+        "chambermaid",
+        "mathematician",
+        "dawn",
+        "leviathan"
+    ],
+    "first_night": {
+        "dusk": [
+            {
+                "name": "Dusk"
+            },
+            {
+                "description": "Start the night."
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 1
+            }
+        ],
+        "philosopher": [
+            {
+                "name": "Philosopher"
+            },
+            {
+                "description": "The Philosopher might choose a character. If necessary, swap their character token. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 3
+            }
+        ],
+        "alchemist": [
+            {
+                "name": "Alchemist"
+            },
+            {
+                "description": "Show the YOU ARE token and the Character token of a not in play Minion"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 5
+            }
+        ],
+        "poppy_grower": [
+            {
+                "name": "Poppy Grower"
+            },
+            {
+                "description": "Do not do the Minion Info and Demon Info steps. Wake the Demon, show the THESE CHARACTERS ARE NOT IN PLAY info token and any three good character tokens that are not in play."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 6
+            }
+        ],
+        "magician": [
+            {
+                "name": "Magician"
+            },
+            {
+                "description": "Include the Magician in the Minion and Demon Info steps."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 8
+            }
+        ],
+        "minion_info": [
+            {
+                "name": "Minion Info"
+            },
+            {
+                "description": "If there are 7 or more players, wake all Minions: Show the THIS IS THE DEMON token. Point to the Demon. Show the THESE ARE YOUR MINIONS token. Point to the other Minions."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 9
+            }
+        ],
+        "snitch": [
+            {
+                "name": "Snitch"
+            },
+            {
+                "description": "Wake each Minion. Show the THESE CHARACTERS ARE NOT IN PLAY token and three not-in-play character tokens. Put each Minion to sleep."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 10
+            }
+        ],
+        "lunatic": [
+            {
+                "name": "Lunatic"
+            },
+            {
+                "description": "If there are 7 or more players, wake the Lunatic: Show the THESE ARE YOUR MINIONS token. Point to any players. Show the THESE CHARACTERS ARE NOT IN PLAY token. Show 3 good character tokens. Put the Lunatic to sleep. Wake the Demon. Show the YOU ARE info token and the Demon token. Show the THIS PLAYER IS info token and the Lunatic token, then point to the Lunatic."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 11
+            }
+        ],
+        "demon_info": [
+            {
+                "name": "Demon Info"
+            },
+            {
+                "description": "If there are 7 or more players, wake the Demon: Show the THESE ARE YOUR MINIONS token. Point to all Minions. Show the THESE CHARACTERS ARE NOT IN PLAY token Show 3 not-in-play good characters."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 13
+            }
+        ],
+        "king": [
+            {
+                "name": "King"
+            },
+            {
+                "description": "Wake the Demon. Show the THIS PLAYER IS token and the King Token, then point to the King."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 14
+            }
+        ],
+        "sailor": [
+            {
+                "name": "Sailor"
+            },
+            {
+                "description": "The Sailor chooses a living player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 15
+            }
+        ],
+        "marionette": [
+            {
+                "name": "Marionette"
+            },
+            {
+                "description": "Wake the Demon. Point to the player marked IS THE MARIONETTE and show the THIS PLAYER IS token and the Marionette character token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 16
+            }
+        ],
+        "engineer": [
+            {
+                "name": "Engineer"
+            },
+            {
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: Put the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 17
+            }
+        ],
+        "preacher": [
+            {
+                "name": "Preacher"
+            },
+            {
+                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 18
+            }
+        ],
+        "lil_monsta": [
+            {
+                "name": "Lil' Monsta"
+            },
+            {
+                "description": "Wake all Minions, allow them to choose a babysitter. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 19
+            }
+        ],
+        "lleech": [
+            {
+                "name": "Lleech"
+            },
+            {
+                "description": "The Lleech chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 20
+            }
+        ],
+        "poisoner": [
+            {
+                "name": "Poisoner"
+            },
+            {
+                "description": "The Poisoner chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 21
+            }
+        ],
+        "widow": [
+            {
+                "name": "Widow"
+            },
+            {
+                "description": "Show the Grimoire for as long as the Widow needs. The Widow chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 22
+            }
+        ],
+        "courtier": [
+            {
+                "name": "Courtier"
+            },
+            {
+                "description": "The Courtier might choose a character. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 23
+            }
+        ],
+        "snake_charmer": [
+            {
+                "name": "Snake Charmer"
+            },
+            {
+                "description": "The Snake Charmer chooses a player. If they chose the Demon: \n\tShow the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 24
+            }
+        ],
+        "godfather": [
+            {
+                "name": "Godfather"
+            },
+            {
+                "description": "Show the character tokens of all in-play Outsiders"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 25
+            }
+        ],
+        "devils_advocate": [
+            {
+                "name": "Devil's Advocate"
+            },
+            {
+                "description": "The Devil's Advocate chooses a living player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 26
+            }
+        ],
+        "evil_twin": [
+            {
+                "name": "Evil Twin"
+            },
+            {
+                "description": "Wake both twins. Allow eye contact. Show the good twin's character to the Evil Twin & vice versa."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 27
+            }
+        ],
+        "witch": [
+            {
+                "name": "Witch"
+            },
+            {
+                "description": "The Witch chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 28
+            }
+        ],
+        "cerenovus": [
+            {
+                "name": "Cerenovus"
+            },
+            {
+                "description": "The Cerenovus chooses a player & a character. \u26ab Put the Cerenovus to sleep. Wake the target. Show the THIS CHARACTER HAS SELECTED YOU token, the Cerenovus token, then the madness-character token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 29
+            }
+        ],
+        "fearmonger": [
+            {
+                "name": "Fearmonger"
+            },
+            {
+                "description": "The Fearmonger chooses a player. \u26ab Declare that 'The Fearmonger has chosen a player.'"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 30
+            }
+        ],
+        "harpy": [
+            {
+                "name": "Harpy"
+            },
+            {
+                "description": "The Harpy chooses two players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 31
+            }
+        ],
+        "mezepheles": [
+            {
+                "name": "Mezepheles"
+            },
+            {
+                "description": "Show the written word."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 32
+            }
+        ],
+        "pukka": [
+            {
+                "name": "Pukka"
+            },
+            {
+                "description": "The Pukka chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 33
+            }
+        ],
+        "pixie": [
+            {
+                "name": "Pixie"
+            },
+            {
+                "description": "Show the Townsfolk character token marked MAD."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 34
+            }
+        ],
+        "damsel": [
+            {
+                "name": "Damsel"
+            },
+            {
+                "description": "Wake each Minion. Show the Damsel token. Put each Minion to sleep."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 35
+            }
+        ],
+        "amnesiac": [
+            {
+                "name": "Amnesiac"
+            },
+            {
+                "description": ""
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 36
+            }
+        ],
+        "washerwoman": [
+            {
+                "name": "Washerwoman"
+            },
+            {
+                "description": "Show the Townsfolk character token. Point to both the TOWNSFOLK and WRONG players."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 37
+            }
+        ],
+        "librarian": [
+            {
+                "name": "Librarian"
+            },
+            {
+                "description": "Show the Outsider character token. Point to both the OUTSIDER and WRONG players."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 38
+            }
+        ],
+        "investigator": [
+            {
+                "name": "Investigator"
+            },
+            {
+                "description": "Show the Minion character token. Point to both the MINION and WRONG players."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 39
+            }
+        ],
+        "chef": [
+            {
+                "name": "Chef"
+            },
+            {
+                "description": "Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 40
+            }
+        ],
+        "empath": [
+            {
+                "name": "Empath"
+            },
+            {
+                "description": "Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 41
+            }
+        ],
+        "fortune_teller": [
+            {
+                "name": "Fortune Teller"
+            },
+            {
+                "description": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the RED HERRING)."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 42
+            }
+        ],
+        "butler": [
+            {
+                "name": "Butler"
+            },
+            {
+                "description": "The Butler chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 43
+            }
+        ],
+        "grandmother": [
+            {
+                "name": "Grandmother"
+            },
+            {
+                "description": "Point to the grandchild player & show their character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 44
+            }
+        ],
+        "clockmaker": [
+            {
+                "name": "Clockmaker"
+            },
+            {
+                "description": "Give a finger signal. "
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 45
+            }
+        ],
+        "dreamer": [
+            {
+                "name": "Dreamer"
+            },
+            {
+                "description": "The Dreamer points to a player. Show 1 good and 1 evil character token, 1 of which is their character."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 46
+            }
+        ],
+        "seamstress": [
+            {
+                "name": "Seamstress"
+            },
+            {
+                "description": "The Seamstress might choose 2 players. Nod or shake your head. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 47
+            }
+        ],
+        "steward": [
+            {
+                "name": "Steward"
+            },
+            {
+                "description": "Point to the good player marked KNOW."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 48
+            }
+        ],
+        "knight": [
+            {
+                "name": "Knight"
+            },
+            {
+                "description": "Point to the two non-Demon players marked KNOW."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 49
+            }
+        ],
+        "noble": [
+            {
+                "name": "Noble"
+            },
+            {
+                "description": "Point to all three players marked KNOW."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 50
+            }
+        ],
+        "balloonist": [
+            {
+                "name": "Balloonist"
+            },
+            {
+                "description": "Show any player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 51
+            }
+        ],
+        "shugenja": [
+            {
+                "name": "Shugenja"
+            },
+            {
+                "description": "Point clockwise or anticlockwise around the circle"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 52
+            }
+        ],
+        "bounty_hunter": [
+            {
+                "name": "Bounty Hunter"
+            },
+            {
+                "description": "Point to the KNOWN player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 54
+            }
+        ],
+        "nightwatchman": [
+            {
+                "name": "Nightwatchman"
+            },
+            {
+                "description": "The Nightwatchman might choose a player. \u26ab Put the Nightwatchman to sleep. Wake the target and show the THIS PLAYER IS and Nightwatchman tokens and point to the Nightwatchman."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 55
+            }
+        ],
+        "cult_leader": [
+            {
+                "name": "Cult Leader"
+            },
+            {
+                "description": "The Cult Leader might change alignment. If so, show the YOU ARE info token and a thumbs up or down for their new alignment."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 56
+            }
+        ],
+        "spy": [
+            {
+                "name": "Spy"
+            },
+            {
+                "description": "Show the Grimoire for as long as the Spy needs."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 57
+            }
+        ],
+        "high_priestess": [
+            {
+                "name": "High Priestess"
+            },
+            {
+                "description": "Point to a player"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 58
+            }
+        ],
+        "general": [
+            {
+                "name": "General"
+            },
+            {
+                "description": "Give a thumb signal"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 59
+            }
+        ],
+        "chambermaid": [
+            {
+                "name": "Chambermaid"
+            },
+            {
+                "description": "The Chambermaid chooses 2 living players. Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 60
+            }
+        ],
+        "mathematician": [
+            {
+                "name": "Mathematician"
+            },
+            {
+                "description": "Give a finger signal"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 61
+            }
+        ],
+        "dawn": [
+            {
+                "name": "Dawn"
+            },
+            {
+                "description": "Wait for a few seconds. End the Night Phase."
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 62
+            }
+        ],
+        "leviathan": [
+            {
+                "name": "Leviathan"
+            },
+            {
+                "description": "Declare that 'The Leviathan is in play.' Mark the Leviathan with the DAY 1 reminder. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 63
+            }
+        ],
+        "vizier": [
+            {
+                "name": "Vizier"
+            },
+            {
+                "description": "Announce the Vizier player to the group."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 64
+            }
+        ],
+        "travelers": [
+            {
+                "name": "Travelers"
+            },
+            {
+                "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 2
+            }
+        ],
+        "kazali": [
+            {
+                "name": "Kazali"
+            },
+            {
+                "description": "Wake the Kazali, allow them to choose Minions. "
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 4
+            }
+        ],
+        "village idiot": [
+            {
+                "name": "Village Idiot"
+            },
+            {
+                "description": "Choose a Village Idiot to be drunk. Wake the Village Idiots one at a time, they choose a player, show either good or evil thumbs according to the alignment of that player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 53
+            }
+        ],
+        "yaggababble": [
+            {
+                "name": "Yaggababble"
+            },
+            {
+                "description": "Choose a secret phrase. Wake the Yaggababble and let them know their secret  phrase. "
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 7
+            }
+        ],
+        "summoner": [
+            {
+                "name": "Summoner"
+            },
+            {
+                "description": "Show the THESE CHARACTERS ARE NOT IN PLAY token. Show 3 not-in-play good character tokens."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 12
+            }
+        ]
+    },
+    "other_night": {
+        "dusk": [
+            {
+                "name": "Dusk"
+            },
+            {
+                "description": "Start the night."
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 1
+            }
+        ],
+        "philosopher": [
+            {
+                "name": "Philosopher"
+            },
+            {
+                "description": "The Philosopher might choose a character. If necessary, swap their character token. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 3
+            }
+        ],
+        "poppy_grower": [
+            {
+                "name": "Poppy Grower"
+            },
+            {
+                "description": "If the Poppy Grower died today or tonight, wake the Minions, show the THIS IS THE DEMON info token and point to the Demon. Put them to sleep. Wake the Demon, show the THESE ARE YOUR MINIONS info token and point to the minions. Put the Demon to sleep."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 4
+            }
+        ],
+        "sailor": [
+            {
+                "name": "Sailor"
+            },
+            {
+                "description": "The Sailor chooses a living player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 5
+            }
+        ],
+        "engineer": [
+            {
+                "name": "Engineer"
+            },
+            {
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: Put the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 6
+            }
+        ],
+        "preacher": [
+            {
+                "name": "Preacher"
+            },
+            {
+                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 7
+            }
+        ],
+        "poisoner": [
+            {
+                "name": "Poisoner"
+            },
+            {
+                "description": "The Poisoner chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 8
+            }
+        ],
+        "courtier": [
+            {
+                "name": "Courtier"
+            },
+            {
+                "description": "The Courtier might choose a character. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 9
+            }
+        ],
+        "innkeeper": [
+            {
+                "name": "Innkeeper"
+            },
+            {
+                "description": "The Innkeeper chooses 2 players. \u26ab\u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 10
+            }
+        ],
+        "gambler": [
+            {
+                "name": "Gambler"
+            },
+            {
+                "description": "The Gambler chooses a player & a character. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 11
+            }
+        ],
+        "snake_charmer": [
+            {
+                "name": "Snake Charmer"
+            },
+            {
+                "description": "The Snake Charmer chooses a player. If they chose the Demon: Show the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 12
+            }
+        ],
+        "monk": [
+            {
+                "name": "Monk"
+            },
+            {
+                "description": "The Monk chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 13
+            }
+        ],
+        "devils_advocate": [
+            {
+                "name": "Devil's Advocate"
+            },
+            {
+                "description": "The Devil's Advocate chooses a living player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 14
+            }
+        ],
+        "witch": [
+            {
+                "name": "Witch"
+            },
+            {
+                "description": "The Witch chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 15
+            }
+        ],
+        "cerenovus": [
+            {
+                "name": "Cerenovus"
+            },
+            {
+                "description": "The Cerenovus chooses a player & a character. \u26ab Put the Cerenovus to sleep. Wake the target. Show the THIS CHARACTER HAS SELECTED YOU token, the Cerenovus token, then the madness-character token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 16
+            }
+        ],
+        "pit-hag": [
+            {
+                "name": "Pit-Hag"
+            },
+            {
+                "description": "The Pit-Hag chooses a player & a character. If they chose a character that is not in play: Put the Pit-Hag to sleep. Wake the target. Show the YOU ARE token & their new character token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 17
+            }
+        ],
+        "fearmonger": [
+            {
+                "name": "Fearmonger"
+            },
+            {
+                "description": "The Fearmonger chooses a player. \u26ab If the player wasn't already marked with the FEAR reminder, declare that 'The Fearmonger has chosen a player'"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 18
+            }
+        ],
+        "harpy": [
+            {
+                "name": "Harpy"
+            },
+            {
+                "description": "The Harpy chooses two players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 19
+            }
+        ],
+        "mezepheles": [
+            {
+                "name": "Mezepheles"
+            },
+            {
+                "description": "If a player is marked with the TURNS EVIL reminder, wake them. Show the YOU ARE info token and a thumbs down. The Mezepheles loses their ability. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 20
+            }
+        ],
+        "scarlet_woman": [
+            {
+                "name": "Scarlet Woman"
+            },
+            {
+                "description": "If the Scarlet Woman became the Demon today, show them the YOU ARE token, then the Demon Character token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 21
+            }
+        ],
+        "lunatic": [
+            {
+                "name": "Lunatic"
+            },
+            {
+                "description": "Do whatever needs to be done to simulate the Demon acting. Put the Lunatic to sleep. Wake the Demon. Show the Lunatic token & point to them, then their target(s)."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 23
+            }
+        ],
+        "exorcist": [
+            {
+                "name": "Exorcist"
+            },
+            {
+                "description": "The Exorcist chooses a player. \u26ab Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the THIS CHARACTER SELECTED YOU & Exorcist tokens. Point to the Exorcist."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 24
+            }
+        ],
+        "lycanthrope": [
+            {
+                "name": "Lycanthrope"
+            },
+            {
+                "description": "The Lycanthrope chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 25
+            }
+        ],
+        "legion": [
+            {
+                "name": "Legion"
+            },
+            {
+                "description": "A player might die. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 26
+            }
+        ],
+        "imp": [
+            {
+                "name": "Imp"
+            },
+            {
+                "description": "The Imp chooses a player. \u26ab If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the YOU ARE token, then show the Imp token."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 27
+            }
+        ],
+        "zombuul": [
+            {
+                "name": "Zombuul"
+            },
+            {
+                "description": "If no one died today, the Zombuul chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 28
+            }
+        ],
+        "pukka": [
+            {
+                "name": "Pukka"
+            },
+            {
+                "description": "The Pukka chooses a player. \u26ab The previouslt poisoned player dies then becomes healthy. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 29
+            }
+        ],
+        "shabaloth": [
+            {
+                "name": "Shabaloth"
+            },
+            {
+                "description": "A previously chosen player might be resurrected. \u26ab The Shabaloth chooses 2 players. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 30
+            }
+        ],
+        "po": [
+            {
+                "name": "Po"
+            },
+            {
+                "description": "The Po may choose a player OR chooses 3 players if they chose no-one last night. \u26ab or \u26ab\u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 31
+            }
+        ],
+        "fang_gu": [
+            {
+                "name": "Fang Gu"
+            },
+            {
+                "description": "The Fang Gu chooses a player. \u26ab If they chose an Outsider (once only): Replace the Outsider token with the spare Fang Gu token. Put the Fang Gu token to sleep. Wake the target. Show the YOU ARE and Fang Gu tokens & give a thumbs-down. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 32
+            }
+        ],
+        "no_dashii": [
+            {
+                "name": "No Dashii"
+            },
+            {
+                "description": "The No Dashii chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 33
+            }
+        ],
+        "vortox": [
+            {
+                "name": "Vortox"
+            },
+            {
+                "description": "The Vortox chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 34
+            }
+        ],
+        "vigormortis": [
+            {
+                "name": "Vigormortis"
+            },
+            {
+                "description": "The Vigormortis chooses a player. \u26ab If that player is a Minion, poison a neighboring Townsfolk. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 35
+            }
+        ],
+        "ojo": [
+            {
+                "name": "Ojo"
+            },
+            {
+                "description": "The Ojo chooses a character."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 36
+            }
+        ],
+        "al-hadikhia": [
+            {
+                "name": "Al-Hadikhia"
+            },
+            {
+                "description": "The Al-Hadikhia chooses three players. \u26ab\u26ab\u26ab Wake the player marked 1 and say 'The Al-Hadikhia has chosen', then the player's name, then 'Do you choose to live?' They either nod or shake their head. Put them to sleep and add or remove shrouds accordingly. Repeat for players marked 2 and 3. If all three players are now alive, add a shroud to all three."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 37
+            }
+        ],
+        "lleech": [
+            {
+                "name": "Lleech"
+            },
+            {
+                "description": "The Lleech chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 38
+            }
+        ],
+        "lil_monsta": [
+            {
+                "name": "Lil' Monsta"
+            },
+            {
+                "description": "Wake all Minions, allow them to choose a babysitter.\u26ab A player might die. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 39
+            }
+        ],
+        "assassin": [
+            {
+                "name": "Assassin"
+            },
+            {
+                "description": "The Assassin might choose a player. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 42
+            }
+        ],
+        "godfather": [
+            {
+                "name": "Godfather"
+            },
+            {
+                "description": "If an Outsider died today, the Godfather chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 43
+            }
+        ],
+        "gossip": [
+            {
+                "name": "Gossip"
+            },
+            {
+                "description": "If the Gossip is due to kill a player, they die. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 44
+            }
+        ],
+        "acrobat": [
+            {
+                "name": "Acrobat"
+            },
+            {
+                "description": "The Acrobat might die."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 45
+            }
+        ],
+        "barber": [
+            {
+                "name": "Barber"
+            },
+            {
+                "description": "If the Barber died today or tonight, show the Demon the THIS CHARACTER SELECTED YOU & Barber tokens. If the Demon chose 2 players, wake one at a time. Show the YOU ARE token & their new character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 47
+            }
+        ],
+        "sweetheart": [
+            {
+                "name": "Sweetheart"
+            },
+            {
+                "description": "If the Sweetheart died, a player became drunk immediately. If you haven't done this yet, do so now. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 48
+            }
+        ],
+        "sage": [
+            {
+                "name": "Sage"
+            },
+            {
+                "description": "If the Demon killed the Sage, wake the Sage and point to 2 players, 1 of which is the Demon."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 49
+            }
+        ],
+        "professor": [
+            {
+                "name": "Professor"
+            },
+            {
+                "description": "The Professor might choose a dead player. \u26ab\u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 50
+            }
+        ],
+        "choirboy": [
+            {
+                "name": "Choirboy"
+            },
+            {
+                "description": "If the Demon killed the King, point to the Demon player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 51
+            }
+        ],
+        "huntsman": [
+            {
+                "name": "Huntsman"
+            },
+            {
+                "description": "The Huntsman might choose a player. \u26ab If that player was the Damsel: Put the Huntsman to sleep. Wake the Damsel and show them the YOU ARE info token and their new character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 52
+            }
+        ],
+        "damsel": [
+            {
+                "name": "Damsel"
+            },
+            {
+                "description": "If the Damsel was chosen by the Huntsman, show them the YOU ARE info token and their new character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 53
+            }
+        ],
+        "amnesiac": [
+            {
+                "name": "Amnesiac"
+            },
+            {
+                "description": ""
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 54
+            }
+        ],
+        "farmer": [
+            {
+                "name": "Farmer"
+            },
+            {
+                "description": "If the Farmer died tonight, wake an alive good player. Show them the YOU ARE info token and a Farmer character token. Replace their previous token with the Farmer token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 55
+            }
+        ],
+        "tinker": [
+            {
+                "name": "Tinker"
+            },
+            {
+                "description": "The Tinker might die. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 56
+            }
+        ],
+        "moonchild": [
+            {
+                "name": "Moonchild"
+            },
+            {
+                "description": "If the Moonchild is due to kill a good player, they die. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 57
+            }
+        ],
+        "grandmother": [
+            {
+                "name": "Grandmother"
+            },
+            {
+                "description": "If the grandchild was killed by the Demon, the Grandmother dies too. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 58
+            }
+        ],
+        "ravenkeeper": [
+            {
+                "name": "Ravenkeeper"
+            },
+            {
+                "description": "If the Ravenkeeper died tonight, the Ravenkeeper chooses a player. Show that player's character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 59
+            }
+        ],
+        "empath": [
+            {
+                "name": "Empath"
+            },
+            {
+                "description": "Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 60
+            }
+        ],
+        "fortune_teller": [
+            {
+                "name": "Fortune Teller"
+            },
+            {
+                "description": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the RED HERRING)."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 61
+            }
+        ],
+        "undertaker": [
+            {
+                "name": "Undertaker"
+            },
+            {
+                "description": "If a player was executed today, show their character token."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 62
+            }
+        ],
+        "dreamer": [
+            {
+                "name": "Dreamer"
+            },
+            {
+                "description": "The Dreamer points to a player. Show 1 good & 1 evil character token, 1 of which is their character."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 63
+            }
+        ],
+        "flowergirl": [
+            {
+                "name": "Flowergirl"
+            },
+            {
+                "description": "Either nod or shake your head."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 64
+            }
+        ],
+        "town_crier": [
+            {
+                "name": "Town Crier"
+            },
+            {
+                "description": "Either nod or shake your head."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 65
+            }
+        ],
+        "oracle": [
+            {
+                "name": "Oracle"
+            },
+            {
+                "description": "Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 66
+            }
+        ],
+        "seamstress": [
+            {
+                "name": "Seamstress"
+            },
+            {
+                "description": "The Seamstress might choose 2 players. Nod or shake your head. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 67
+            }
+        ],
+        "juggler": [
+            {
+                "name": "Juggler"
+            },
+            {
+                "description": "Give a finger signal"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 68
+            }
+        ],
+        "balloonist": [
+            {
+                "name": "Balloonist"
+            },
+            {
+                "description": "Show a player with a different character type to previously \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 69
+            }
+        ],
+        "king": [
+            {
+                "name": "King"
+            },
+            {
+                "description": "If the dead outnumber the living, show the character token of an alive player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 71
+            }
+        ],
+        "bounty_hunter": [
+            {
+                "name": "Bounty Hunter"
+            },
+            {
+                "description": "If the KNOWN player died today or tonight, point to a new KNOWN player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 72
+            }
+        ],
+        "nightwatchman": [
+            {
+                "name": "Nightwatchman"
+            },
+            {
+                "description": "The Nightwatchman might choose a player. \u26ab Put the Nightwatchman to sleep. Wake the target and show the THIS PLAYER IS and Nightwatchman tokens and point to the Nightwatchman."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 73
+            }
+        ],
+        "cult_leader": [
+            {
+                "name": "Cult Leader"
+            },
+            {
+                "description": "The Cult Leader might change alignment. If so, show the YOU ARE info token and a thumbs up or down for their new alignment."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 74
+            }
+        ],
+        "butler": [
+            {
+                "name": "Butler"
+            },
+            {
+                "description": "The Butler chooses a player. \u26ab"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 75
+            }
+        ],
+        "spy": [
+            {
+                "name": "Spy"
+            },
+            {
+                "description": "Show the Grimoire for as long as the Spy needs."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 76
+            }
+        ],
+        "high_priestess": [
+            {
+                "name": "High Priestess"
+            },
+            {
+                "description": "Point to a player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 77
+            }
+        ],
+        "general": [
+            {
+                "name": "General"
+            },
+            {
+                "description": "Give a thumb signal"
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 78
+            }
+        ],
+        "chambermaid": [
+            {
+                "name": "Chambermaid"
+            },
+            {
+                "description": "The Chambermaid chooses 2 living players. Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 79
+            }
+        ],
+        "mathematician": [
+            {
+                "name": "Mathematician"
+            },
+            {
+                "description": "Give a finger signal."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 80
+            }
+        ],
+        "dawn": [
+            {
+                "name": "Dawn"
+            },
+            {
+                "description": "Wait for a few seconds. End the Night Phase."
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 81
+            }
+        ],
+        "leviathan": [
+            {
+                "name": "Leviathan"
+            },
+            {
+                "description": "Optionally, declare that 'The Leviathan is in play.' Replace the reminder token. \u26ab"
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 82
+            }
+        ],
+        "hatter": [
+            {
+                "name": "Hatter"
+            },
+            {
+                "description": "Wake Minions and Demons, allow them to choose new characters."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 46
+            }
+        ],
+        "travelers": [
+            {
+                "name": "Travelers"
+            },
+            {
+                "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+            },
+            {
+                "default_alignment": "Neither"
+            },
+            {
+                "order_pos": 2
+            }
+        ],
+        "kazali": [
+            {
+                "name": "Kazali"
+            },
+            {
+                "description": "The Kazali chooses a player."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 41
+            }
+        ],
+        "village idiot": [
+            {
+                "name": "Village Idiot"
+            },
+            {
+                "description": "Wake the Village Idiots one at a time, they choose a player, show either good or evil thumbs according to the alignment of that player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 70
+            }
+        ],
+        "yaggababble": [
+            {
+                "name": "Yaggababble"
+            },
+            {
+                "description": "For each time the Yaggababble said the phrase today, you may choose a player. They die. "
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 40
+            }
+        ],
+        "summoner": [
+            {
+                "name": "Summoner"
+            },
+            {
+                "description": "Change the Summoner reminder token to the relevant night. If it is night 3, the Summoner chooses a player and a Demon. Put the Summoner to sleep. Wake the chosen player. Show the YOU ARE token, a thumbs  down and the chosen Demon token. "
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 22
+            }
+        ]
+    }
+}
