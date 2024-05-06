@@ -115,6 +115,7 @@
         "barber",
         "sweetheart",
         "sage",
+        "banshee",
         "professor",
         "choirboy",
         "huntsman",
@@ -1675,7 +1676,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 50
+                "order_pos": 51
             }
         ],
         "choirboy": [
@@ -1689,7 +1690,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 51
+                "order_pos": 52
             }
         ],
         "huntsman": [
@@ -1703,7 +1704,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 52
+                "order_pos": 53
             }
         ],
         "damsel": [
@@ -1717,7 +1718,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 53
+                "order_pos": 54
             }
         ],
         "amnesiac": [
@@ -1731,7 +1732,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 54
+                "order_pos": 55
             }
         ],
         "farmer": [
@@ -1745,7 +1746,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 55
+                "order_pos": 56
             }
         ],
         "tinker": [
@@ -1759,7 +1760,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 56
+                "order_pos": 57
             }
         ],
         "moonchild": [
@@ -1773,7 +1774,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 57
+                "order_pos": 58
             }
         ],
         "grandmother": [
@@ -1787,7 +1788,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 58
+                "order_pos": 59
             }
         ],
         "ravenkeeper": [
@@ -1801,7 +1802,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 59
+                "order_pos": 60
             }
         ],
         "empath": [
@@ -1815,7 +1816,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 60
+                "order_pos": 61
             }
         ],
         "fortune_teller": [
@@ -1829,7 +1830,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 61
+                "order_pos": 62
             }
         ],
         "undertaker": [
@@ -1843,7 +1844,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 62
+                "order_pos": 63
             }
         ],
         "dreamer": [
@@ -1857,7 +1858,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 63
+                "order_pos": 64
             }
         ],
         "flowergirl": [
@@ -1871,7 +1872,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 64
+                "order_pos": 65
             }
         ],
         "town_crier": [
@@ -1885,7 +1886,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 65
+                "order_pos": 66
             }
         ],
         "oracle": [
@@ -1899,7 +1900,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 66
+                "order_pos": 67
             }
         ],
         "seamstress": [
@@ -1913,7 +1914,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 67
+                "order_pos": 68
             }
         ],
         "juggler": [
@@ -1927,7 +1928,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 68
+                "order_pos": 69
             }
         ],
         "balloonist": [
@@ -1941,7 +1942,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 69
+                "order_pos": 70
             }
         ],
         "king": [
@@ -1955,7 +1956,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 71
+                "order_pos": 72
             }
         ],
         "bounty_hunter": [
@@ -1969,7 +1970,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 72
+                "order_pos": 73
             }
         ],
         "nightwatchman": [
@@ -1983,7 +1984,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 73
+                "order_pos": 74
             }
         ],
         "cult_leader": [
@@ -1997,7 +1998,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 74
+                "order_pos": 75
             }
         ],
         "butler": [
@@ -2011,7 +2012,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 75
+                "order_pos": 76
             }
         ],
         "spy": [
@@ -2025,7 +2026,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 76
+                "order_pos": 77
             }
         ],
         "high_priestess": [
@@ -2039,7 +2040,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 77
+                "order_pos": 78
             }
         ],
         "general": [
@@ -2053,7 +2054,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 78
+                "order_pos": 79
             }
         ],
         "chambermaid": [
@@ -2067,7 +2068,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 79
+                "order_pos": 80
             }
         ],
         "mathematician": [
@@ -2081,7 +2082,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 80
+                "order_pos": 81
             }
         ],
         "dawn": [
@@ -2095,7 +2096,7 @@
                 "default_alignment": "Neither"
             },
             {
-                "order_pos": 81
+                "order_pos": 82
             }
         ],
         "leviathan": [
@@ -2109,7 +2110,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 82
+                "order_pos": 83
             }
         ],
         "hatter": [
@@ -2145,7 +2146,7 @@
                 "name": "Kazali"
             },
             {
-                "description": "The Kazali chooses a player."
+                "description": "The Kazali chooses a player. \u26ab"
             },
             {
                 "default_alignment": "Evil"
@@ -2165,7 +2166,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 70
+                "order_pos": 71
             }
         ],
         "yaggababble": [
@@ -2173,7 +2174,7 @@
                 "name": "Yaggababble"
             },
             {
-                "description": "For each time the Yaggababble said the phrase today, you may choose a player. They die. "
+                "description": "For each time the Yaggababble said the phrase today, you may choose a player. They die. \u26ab"
             },
             {
                 "default_alignment": "Evil"
@@ -2194,6 +2195,20 @@
             },
             {
                 "order_pos": 22
+            }
+        ],
+        "banshee": [
+            {
+                "name": "Banshee"
+            },
+            {
+                "description": "If the Banshee was killed by the Demon tonight, announce to all players that the Banshee has died."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 50
             }
         ]
     }
