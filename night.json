@@ -57,6 +57,7 @@
         "nightwatchman",
         "cult_leader",
         "spy",
+        "ogre",
         "high_priestess",
         "general",
         "chambermaid",
@@ -890,7 +891,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 58
+                "order_pos": 59
             }
         ],
         "general": [
@@ -904,7 +905,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 59
+                "order_pos": 60
             }
         ],
         "chambermaid": [
@@ -918,7 +919,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 60
+                "order_pos": 61
             }
         ],
         "mathematician": [
@@ -932,7 +933,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 61
+                "order_pos": 62
             }
         ],
         "dawn": [
@@ -946,7 +947,7 @@
                 "default_alignment": "Neither"
             },
             {
-                "order_pos": 62
+                "order_pos": 63
             }
         ],
         "leviathan": [
@@ -960,7 +961,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 63
+                "order_pos": 64
             }
         ],
         "vizier": [
@@ -974,7 +975,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 64
+                "order_pos": 65
             }
         ],
         "travelers": [
@@ -1045,6 +1046,20 @@
             },
             {
                 "order_pos": 12
+            }
+        ],
+        "ogre": [
+            {
+                "name": "Ogre"
+            },
+            {
+                "description": "The Ogre points to a player."
+            },
+            {
+                "default_alignment": "Good"
+            },
+            {
+                "order_pos": 58
             }
         ]
     },
@@ -1950,7 +1965,7 @@
                 "name": "King"
             },
             {
-                "description": "If the dead outnumber the living, show the character token of an alive player."
+                "description": "If the dead equal or outnumber the living, show the character token of an alive player."
             },
             {
                 "default_alignment": "Good"
