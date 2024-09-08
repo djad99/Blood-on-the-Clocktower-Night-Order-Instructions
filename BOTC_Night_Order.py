@@ -104,8 +104,8 @@ def create_night_order(file_name_begin):
     for i in other_night_order:
       f.write(i[0]["name"] + " ,|," + '"' + i[1]["description"] + '"\n')
 
-# This drives night order instructions creation. Read the script, see what characters on the script have night order instructions, 
-# then put those characters in a proper order. (Characters include dawn, dusk, and possibly travelers, Minion Info, and Demon Info. 
+# This drives night order instructions creation. Read the script, see what characters on the script have night order instructions,
+# then put those characters in a proper order. (Characters include dawn, dusk, and possibly travelers, Minion Info, and Demon Info.
 def create_chart():
   file_name = input("Enter the script file name: ")
   characters = search_script("Input_Json_files/" + file_name)
@@ -118,7 +118,7 @@ def create_chart():
 
 # This function drives adding a character. In short, it reads in the user input on the character data, finds the character
 # that the new character is after (assuming all characters will be after dawn, will get around to changing that if the need
-# arises), and remakes the json file with the correct night order placements. If the game was thousands of characters long 
+# arises), and remakes the json file with the correct night order placements. If the game was thousands of characters long
 # that's inefficient, but given we have a low upper bound around 250 characters (227 is the count, round up because homebrew),
 # this is fine.
 def add_character():
@@ -142,7 +142,8 @@ def add_character():
 
   if first_night_order_pos != "":
     spot_to_add_character = night_one_characters.index(first_night_order_pos)
-    night_one_characters.insert(spot_to_add_character + 1, name.lower())
+    night_one_characters.insert(spot_to_add_character + 1,
+                                transform_character_name(name))
     first_night_addition = [{
         "name": name.title()
     }, {
@@ -151,20 +152,22 @@ def add_character():
         'default_alignment': first_night_alignment.title()
     }, {
         "order_pos":
-        night_one_characters.index(name.lower()) + 1
+        night_one_characters.index(transform_character_name(name)) + 1
     }]
 
     for character in night_file["first_night"]:
       night_file["first_night"][character][3][
           "order_pos"] = night_one_characters.index(character) + 1
 
-    night_file["first_night"].update({name.lower(): first_night_addition})
+    night_file["first_night"].update({transform_character_name(name):
+                                      first_night_addition})
     night_file["first_night_characters"].insert(spot_to_add_character + 1,
-                                                name.lower())
+                                                transform_character_name(name))
 
   if other_night_order_pos != "":
     spot_to_add_character = night_x_characters.index(other_night_order_pos)
-    night_x_characters.insert(spot_to_add_character + 1, name.lower())
+    night_x_characters.insert(spot_to_add_character + 1,
+                              transform_character_name(name))
     other_night_addition = [{
         "name": name.title()
     }, {
@@ -173,27 +176,26 @@ def add_character():
         'default_alignment': first_night_alignment.title()
     }, {
         "order_pos":
-        night_x_characters.index(name.lower()) + 1
+        night_x_characters.index(transform_character_name(name)) + 1
     }]
 
     for character in night_file["other_night"]:
       night_file["other_night"][character][3][
           "order_pos"] = night_x_characters.index(character) + 1
 
-    night_file["other_night"].update({name.lower(): other_night_addition})
+    night_file["other_night"].update({transform_character_name(name):
+                                      other_night_addition})
     night_file["other_night_characters"].insert(spot_to_add_character + 1,
-                                                name.lower())
+                                                transform_character_name(name))
 
   with open(night_file_name, 'w') as f:
     json.dump(night_file, f, indent=4)
 
 choice = int(input("Would you like to 1) add a character to the night order or 2) create a night order chart: "))
-
-# These three lines allow for a custom character list to be used
 if int(input("Do you want to do this to a custom character list (1) or the default (0): ")) != 0:
   night_file_name = input("Enter the custom character list filename: ")
   night_file = json.load(open(night_file_name, 'r'))
-  
+
 init_characters()
 if choice == 1:
   add_character()

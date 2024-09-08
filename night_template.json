@@ -1,129 +1,130 @@
 {
   "first_night_characters": [
-      "dusk",
-      "travelers",
-      "minion_info",
-      "demon_info",
-      "dawn"
+    "dusk",
+    "travelers",
+    "minion_info",
+    "demon_info",
+    "dawn"
   ],
   "other_night_characters": [
-      "dusk",
-      "travelers",
-      "dawn"
+    "dusk",
+    "travelers",
+    "dawn"
   ],
   "first_night": {
     "dusk": [
       {
-          "name": "Dusk"
+        "name": "Dusk"
       },
       {
-          "description": "Start the night."
+        "description": "Start the night."
       },
       {
-          "default_alignment": "Neither"
+        "default_alignment": "Neither"
       },
       {
-          "order_pos": 1
+        "order_pos": 1
       }
     ],
     "travelers": [
-        {
-            "name": "Travelers"
-        },
-        {
-            "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
-        },
-        {
-            "default_alignment": "Neither"
-        },
-        {
-            "order_pos": 2
-        }
+      {
+        "name": "Travelers"
+      },
+      {
+        "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+      },
+      {
+        "default_alignment": "Neither"
+      },
+      {
+        "order_pos": 2
+      }
     ],
     "minion_info": [
-        {
-            "name": "Minion Info"
-        },
-        {
-            "description": "If there are 7 or more players, wake all Minions: Show the THIS IS THE DEMON token. Point to the Demon. Show the THESE ARE YOUR MINIONS token. Point to the other Minions."
-        },
-        {
-            "default_alignment": "Evil"
-        },
-        {
-            "order_pos": 3
-        }
+      {
+        "name": "Minion Info"
+      },
+      {
+        "description": "If there are 7 or more players, wake all Minions: Show the THIS IS THE DEMON token. Point to the Demon. Show the THESE ARE YOUR MINIONS token. Point to the other Minions."
+      },
+      {
+        "default_alignment": "Evil"
+      },
+      {
+        "order_pos": 3
+      }
     ],
     "demon_info": [
-        {
-            "name": "Demon Info"
-        },
-        {
-            "description": "If there are 7 or more players, wake the Demon: Show the THESE ARE YOUR MINIONS token. Point to all Minions. Show the THESE CHARACTERS ARE NOT IN PLAY token Show 3 not-in-play good characters."
-        },
-        {
-            "default_alignment": "Evil"
-        },
-        {
-            "order_pos": 4
-        }
+      {
+        "name": "Demon Info"
+      },
+      {
+        "description": "If there are 7 or more players, wake the Demon: Show the THESE ARE YOUR MINIONS token. Point to all Minions. Show the THESE CHARACTERS ARE NOT IN PLAY token Show 3 not-in-play good characters."
+      },
+      {
+        "default_alignment": "Evil"
+      },
+      {
+        "order_pos": 4
+      }
     ],
     "dawn": [
-        {
-            "name": "Dawn"
-        },
-        {
-            "description": "Wait for a few seconds. End the Night Phase."
-        },
-        {
-            "default_alignment": "Neither"
-        },
-        {
-            "order_pos": 5
-        }
+      {
+        "name": "Dawn"
+      },
+      {
+        "description": "Wait for a few seconds. End the Night Phase."
+      },
+      {
+        "default_alignment": "Neither"
+      },
+      {
+        "order_pos": 5
+      }
     ]
   },
   "other_night": {
     "dusk": [
       {
-          "name": "Dusk"
+        "name": "Dusk"
       },
       {
-          "description": "Start the night."
+        "description": "Start the night."
       },
       {
-          "default_alignment": "Neither"
+        "default_alignment": "Neither"
       },
       {
-          "order_pos": 1
+        "order_pos": 1
       }
     ],
     "travelers": [
-        {
-            "name": "Travelers"
-        },
-        {
-            "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
-        },
-        {
-            "default_alignment": "Neither"
-        },
-        {
-            "order_pos": 2
-        }
+      {
+        "name": "Travelers"
+      },
+      {
+        "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+      },
+      {
+        "default_alignment": "Neither"
+      },
+      {
+        "order_pos": 2
+      }
     ],
     "dawn": [
-        {
-            "name": "Dawn"
-        },
-        {
-            "description": "Wait for a few seconds. End the Night Phase."
-        },
-        {
-            "default_alignment": "Neither"
-        },
-        {
-            "order_pos": 3
-        }
+      {
+        "name": "Dawn"
+      },
+      {
+        "description": "Wait for a few seconds. End the Night Phase."
+      },
+      {
+        "default_alignment": "Neither"
+      },
+      {
+        "order_pos": 3
+      }
     ]
   }
+}
