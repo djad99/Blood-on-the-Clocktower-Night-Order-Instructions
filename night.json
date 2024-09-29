@@ -3,8 +3,9 @@
         "dusk",
         "travelers",
         "lord_of_typhon",
-        "philosopher",
         "kazali",
+        "boffin",
+        "philosopher",
         "alchemist",
         "poppy_grower",
         "yaggababble",
@@ -179,7 +180,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 4
+                "order_pos": 6
             }
         ],
         "alchemist": [
@@ -193,7 +194,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 6
+                "order_pos": 7
             }
         ],
         "poppy_grower": [
@@ -207,7 +208,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 7
+                "order_pos": 8
             }
         ],
         "magician": [
@@ -221,7 +222,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 9
+                "order_pos": 10
             }
         ],
         "minion_info": [
@@ -235,7 +236,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 10
+                "order_pos": 11
             }
         ],
         "snitch": [
@@ -249,7 +250,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 11
+                "order_pos": 12
             }
         ],
         "lunatic": [
@@ -263,7 +264,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 12
+                "order_pos": 13
             }
         ],
         "demon_info": [
@@ -277,7 +278,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 14
+                "order_pos": 15
             }
         ],
         "king": [
@@ -291,7 +292,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 15
+                "order_pos": 16
             }
         ],
         "sailor": [
@@ -305,7 +306,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 16
+                "order_pos": 17
             }
         ],
         "marionette": [
@@ -319,7 +320,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 17
+                "order_pos": 18
             }
         ],
         "engineer": [
@@ -333,7 +334,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 18
+                "order_pos": 19
             }
         ],
         "preacher": [
@@ -347,7 +348,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 19
+                "order_pos": 20
             }
         ],
         "lil_monsta": [
@@ -361,7 +362,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 20
+                "order_pos": 21
             }
         ],
         "lleech": [
@@ -375,7 +376,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 21
+                "order_pos": 22
             }
         ],
         "poisoner": [
@@ -389,7 +390,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 22
+                "order_pos": 23
             }
         ],
         "widow": [
@@ -403,7 +404,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 23
+                "order_pos": 24
             }
         ],
         "courtier": [
@@ -417,7 +418,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 24
+                "order_pos": 25
             }
         ],
         "snake_charmer": [
@@ -431,7 +432,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 25
+                "order_pos": 26
             }
         ],
         "godfather": [
@@ -445,7 +446,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 26
+                "order_pos": 27
             }
         ],
         "devils_advocate": [
@@ -459,7 +460,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 27
+                "order_pos": 28
             }
         ],
         "evil_twin": [
@@ -473,7 +474,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 28
+                "order_pos": 29
             }
         ],
         "witch": [
@@ -487,7 +488,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 29
+                "order_pos": 30
             }
         ],
         "cerenovus": [
@@ -501,7 +502,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 30
+                "order_pos": 31
             }
         ],
         "fearmonger": [
@@ -515,7 +516,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 31
+                "order_pos": 32
             }
         ],
         "harpy": [
@@ -529,7 +530,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 32
+                "order_pos": 33
             }
         ],
         "mezepheles": [
@@ -543,7 +544,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 33
+                "order_pos": 34
             }
         ],
         "pukka": [
@@ -557,7 +558,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 34
+                "order_pos": 35
             }
         ],
         "pixie": [
@@ -571,7 +572,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 35
+                "order_pos": 36
             }
         ],
         "damsel": [
@@ -585,7 +586,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 36
+                "order_pos": 37
             }
         ],
         "amnesiac": [
@@ -599,7 +600,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 37
+                "order_pos": 38
             }
         ],
         "washerwoman": [
@@ -613,7 +614,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 38
+                "order_pos": 39
             }
         ],
         "librarian": [
@@ -627,7 +628,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 39
+                "order_pos": 40
             }
         ],
         "investigator": [
@@ -641,7 +642,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 40
+                "order_pos": 41
             }
         ],
         "chef": [
@@ -655,7 +656,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 41
+                "order_pos": 42
             }
         ],
         "empath": [
@@ -669,7 +670,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 42
+                "order_pos": 43
             }
         ],
         "fortune_teller": [
@@ -683,7 +684,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 43
+                "order_pos": 44
             }
         ],
         "butler": [
@@ -697,7 +698,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 44
+                "order_pos": 45
             }
         ],
         "grandmother": [
@@ -711,7 +712,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 45
+                "order_pos": 46
             }
         ],
         "clockmaker": [
@@ -725,7 +726,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 46
+                "order_pos": 47
             }
         ],
         "dreamer": [
@@ -739,7 +740,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 47
+                "order_pos": 48
             }
         ],
         "seamstress": [
@@ -753,7 +754,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 48
+                "order_pos": 49
             }
         ],
         "steward": [
@@ -767,7 +768,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 49
+                "order_pos": 50
             }
         ],
         "knight": [
@@ -781,7 +782,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 50
+                "order_pos": 51
             }
         ],
         "noble": [
@@ -795,7 +796,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 51
+                "order_pos": 52
             }
         ],
         "balloonist": [
@@ -809,7 +810,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 52
+                "order_pos": 53
             }
         ],
         "shugenja": [
@@ -823,7 +824,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 53
+                "order_pos": 54
             }
         ],
         "bounty_hunter": [
@@ -837,7 +838,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 55
+                "order_pos": 56
             }
         ],
         "nightwatchman": [
@@ -851,7 +852,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 56
+                "order_pos": 57
             }
         ],
         "cult_leader": [
@@ -865,7 +866,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 57
+                "order_pos": 58
             }
         ],
         "spy": [
@@ -879,7 +880,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 58
+                "order_pos": 59
             }
         ],
         "high_priestess": [
@@ -893,7 +894,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 60
+                "order_pos": 61
             }
         ],
         "general": [
@@ -907,7 +908,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 61
+                "order_pos": 62
             }
         ],
         "chambermaid": [
@@ -921,7 +922,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 62
+                "order_pos": 63
             }
         ],
         "mathematician": [
@@ -935,7 +936,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 63
+                "order_pos": 64
             }
         ],
         "dawn": [
@@ -949,7 +950,7 @@
                 "default_alignment": "Neither"
             },
             {
-                "order_pos": 64
+                "order_pos": 65
             }
         ],
         "leviathan": [
@@ -963,7 +964,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 65
+                "order_pos": 66
             }
         ],
         "vizier": [
@@ -977,7 +978,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 66
+                "order_pos": 67
             }
         ],
         "travelers": [
@@ -1005,7 +1006,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 5
+                "order_pos": 4
             }
         ],
         "village_idiot": [
@@ -1019,7 +1020,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 54
+                "order_pos": 55
             }
         ],
         "yaggababble": [
@@ -1033,7 +1034,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 8
+                "order_pos": 9
             }
         ],
         "summoner": [
@@ -1047,7 +1048,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 13
+                "order_pos": 14
             }
         ],
         "ogre": [
@@ -1061,7 +1062,7 @@
                 "default_alignment": "Good"
             },
             {
-                "order_pos": 59
+                "order_pos": 60
             }
         ],
         "lord_of_typhon": [
@@ -1076,6 +1077,20 @@
             },
             {
                 "order_pos": 3
+            }
+        ],
+        "boffin": [
+            {
+                "name": "Boffin"
+            },
+            {
+                "description": "Wake the Boffin and the Demon. Show the not-in-play good character token. Put the Boffin and the Demon to sleep."
+            },
+            {
+                "default_alignment": "Evil"
+            },
+            {
+                "order_pos": 5
             }
         ]
     },
@@ -2221,27 +2236,27 @@
             {
                 "description": "Change the Summoner reminder token to the relevant night. If it is night 3, the Summoner chooses a player and a Demon. Put the Summoner to sleep. Wake the chosen player. Show the YOU ARE token, a thumbs  down and the chosen Demon token. "
             },
-          {
-            "default_alignment": "Evil"
-          },
+            {
+                "default_alignment": "Evil"
+            },
             {
                 "order_pos": 22
             }
         ],
-        "banshee": [
-            {
-                "name": "Banshee"
-            },
-            {
-                "description": "If the Banshee was killed by the Demon tonight, announce to all players that the Banshee has died. \u26ab"
-            },
-            {
-                "default_alignment": "Good"
-            },
-            {
-                "order_pos": 51
-            }
-        ],
+      "banshee": [
+        {
+          "name": "Banshee"
+        },
+        {
+          "description": "If the Banshee was killed by the Demon tonight, announce to all players that the Banshee has died. \u26ab"
+        },
+        {
+          "default_alignment": "Good"
+        },
+        {
+          "order_pos": 51
+        }
+      ],
         "lord_of_typhon": [
             {
                 "name": "Lord Of Typhon"
