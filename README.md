@@ -9,11 +9,10 @@ This is a fan project and is no way officially affiliated with The Pandemonium I
 To use this, make sure you have the following
 1) The python script itself as well as Python 3 installed on your development environment. 
 2) The night.json file provided within the same folder as the python script. This has an entry for every character currently released 
-as of 3/25/2024, with a night order instruction. 
+as of 12/7/2024, with a night order instruction. 
 3) The Input_Json_files folder within the folder you have the python script. 
 4) An Output_CSV_files folder within the folder you have the python script.
-5) The BOTC json scripts in the old format that you wish to turn into night order (the current iteration does not support the new format, 
-however there is a script I've made to go between the script formats). 
+5) The BOTC JSON scripts that you wish to turn into night order. The current iteration only supports the new format for JSON scripts (the same format received from script.bloodontheclocktower.com)
 
 ## Custom Night Order Files
 Occassionally, a user may want to create a homebrew character that wakes at night, or use a whole script full of them. Never fear, this
