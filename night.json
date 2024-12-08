@@ -2,12 +2,12 @@
     "first_night_characters": [
         "dusk",
         "travelers",
-        "lord_of_typhon",
+        "lordoftyphon",
         "kazali",
         "boffin",
         "philosopher",
         "alchemist",
-        "poppy_grower",
+        "poppygrower",
         "yaggababble",
         "magician",
         "minion_info",
@@ -20,16 +20,16 @@
         "marionette",
         "engineer",
         "preacher",
-        "lil_monsta",
+        "lilmonsta",
         "lleech",
         "xaan",
         "poisoner",
         "widow",
         "courtier",
-        "snake_charmer",
+        "snakecharmer",
         "godfather",
-        "devils_advocate",
-        "evil_twin",
+        "devilsadvocate",
+        "eviltwin",
         "witch",
         "cerenovus",
         "fearmonger",
@@ -44,7 +44,7 @@
         "investigator",
         "chef",
         "empath",
-        "fortune_teller",
+        "fortuneteller",
         "butler",
         "grandmother",
         "clockmaker",
@@ -55,13 +55,13 @@
         "noble",
         "balloonist",
         "shugenja",
-        "village_idiot",
-        "bounty_hunter",
+        "villageidiot",
+        "bountyhunter",
         "nightwatchman",
-        "cult_leader",
+        "cultleader",
         "spy",
         "ogre",
-        "high_priestess",
+        "highpriestess",
         "general",
         "chambermaid",
         "mathematician",
@@ -73,7 +73,7 @@
         "dusk",
         "travelers",
         "philosopher",
-        "poppy_grower",
+        "poppygrower",
         "sailor",
         "engineer",
         "preacher",
@@ -83,16 +83,16 @@
         "innkeeper",
         "gambler",
         "acrobat",
-        "snake_charmer",
+        "snakecharmer",
         "monk",
-        "devils_advocate",
+        "devilsadvocate",
         "witch",
         "cerenovus",
         "pit-hag",
         "fearmonger",
         "harpy",
         "mezepheles",
-        "scarlet_woman",
+        "scarletwoman",
         "summoner",
         "lunatic",
         "exorcist",
@@ -103,15 +103,15 @@
         "pukka",
         "shabaloth",
         "po",
-        "fang_gu",
-        "no_dashii",
+        "fanggu",
+        "nodashii",
         "vortox",
-        "lord_of_typhon",
+        "lordoftyphon",
         "vigormortis",
         "ojo",
-        "al-hadikhia",
+        "alhadikhia",
         "lleech",
-        "lil_monsta",
+        "lilmonsta",
         "yaggababble",
         "kazali",
         "assassin",
@@ -133,23 +133,23 @@
         "grandmother",
         "ravenkeeper",
         "empath",
-        "fortune_teller",
+        "fortuneteller",
         "undertaker",
         "dreamer",
         "flowergirl",
-        "town_crier",
+        "towncrier",
         "oracle",
         "seamstress",
         "juggler",
         "balloonist",
-        "village_idiot",
+        "villageidiot",
         "king",
-        "bounty_hunter",
+        "bountyhunter",
         "nightwatchman",
-        "cult_leader",
+        "cultleader",
         "butler",
         "spy",
-        "high_priestess",
+        "highpriestess",
         "general",
         "chambermaid",
         "mathematician",
@@ -199,7 +199,7 @@
                 "order_pos": 7
             }
         ],
-        "poppy_grower": [
+        "poppygrower": [
             {
                 "name": "Poppy Grower"
             },
@@ -330,7 +330,7 @@
                 "name": "Engineer"
             },
             {
-                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: Put the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
             },
             {
                 "default_alignment": "Good"
@@ -344,7 +344,7 @@
                 "name": "Preacher"
             },
             {
-                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
+                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: \n\tPut the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
             },
             {
                 "default_alignment": "Good"
@@ -353,7 +353,7 @@
                 "order_pos": 20
             }
         ],
-        "lil_monsta": [
+        "lilmonsta": [
             {
                 "name": "Lil' Monsta"
             },
@@ -423,7 +423,7 @@
                 "order_pos": 26
             }
         ],
-        "snake_charmer": [
+        "snakecharmer": [
             {
                 "name": "Snake Charmer"
             },
@@ -451,7 +451,7 @@
                 "order_pos": 28
             }
         ],
-        "devils_advocate": [
+        "devilsadvocate": [
             {
                 "name": "Devil's Advocate"
             },
@@ -465,7 +465,7 @@
                 "order_pos": 29
             }
         ],
-        "evil_twin": [
+        "eviltwin": [
             {
                 "name": "Evil Twin"
             },
@@ -675,7 +675,7 @@
                 "order_pos": 44
             }
         ],
-        "fortune_teller": [
+        "fortuneteller": [
             {
                 "name": "Fortune Teller"
             },
@@ -829,7 +829,7 @@
                 "order_pos": 55
             }
         ],
-        "bounty_hunter": [
+        "bountyhunter": [
             {
                 "name": "Bounty Hunter"
             },
@@ -857,7 +857,7 @@
                 "order_pos": 58
             }
         ],
-        "cult_leader": [
+        "cultleader": [
             {
                 "name": "Cult Leader"
             },
@@ -885,7 +885,7 @@
                 "order_pos": 60
             }
         ],
-        "high_priestess": [
+        "highpriestess": [
             {
                 "name": "High Priestess"
             },
@@ -988,7 +988,7 @@
                 "name": "Travelers"
             },
             {
-                "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+                "description": "Tell any new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: \n\tShow the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
             },
             {
                 "default_alignment": "Neither"
@@ -1011,7 +1011,7 @@
                 "order_pos": 4
             }
         ],
-        "village_idiot": [
+        "villageidiot": [
             {
                 "name": "Village Idiot"
             },
@@ -1067,7 +1067,7 @@
                 "order_pos": 61
             }
         ],
-        "lord_of_typhon": [
+        "lordoftyphon": [
             {
                 "name": "Lord Of Typhon"
             },
@@ -1139,7 +1139,7 @@
                 "order_pos": 3
             }
         ],
-        "poppy_grower": [
+        "poppygrower": [
             {
                 "name": "Poppy Grower"
             },
@@ -1172,7 +1172,7 @@
                 "name": "Engineer"
             },
             {
-                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: Put the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a targer, show them the YOU ARE token and their new character token, then put that target to sleep. Repeat for all players that changed characters."
             },
             {
                 "default_alignment": "Good"
@@ -1186,7 +1186,7 @@
                 "name": "Preacher"
             },
             {
-                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
+                "description": "The Preacher chooses a player. \u26ab If they chose a Minion: \n\tPut the Preacher to sleep. Wake the target. Show the THIS CHARACTER SELECTED YOU token and the Preacher token."
             },
             {
                 "default_alignment": "Good"
@@ -1251,12 +1251,12 @@
                 "order_pos": 12
             }
         ],
-        "snake_charmer": [
+        "snakecharmer": [
             {
                 "name": "Snake Charmer"
             },
             {
-                "description": "The Snake Charmer chooses a player. If they chose the Demon: Show the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. \u26ab"
+                "description": "The Snake Charmer chooses a player. If they chose the Demon: \n\tShow the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. \u26ab"
             },
             {
                 "default_alignment": "Good"
@@ -1279,7 +1279,7 @@
                 "order_pos": 15
             }
         ],
-        "devils_advocate": [
+        "devilsadvocate": [
             {
                 "name": "Devil's Advocate"
             },
@@ -1321,12 +1321,12 @@
                 "order_pos": 18
             }
         ],
-        "pit-hag": [
+        "pithag": [
             {
                 "name": "Pit-Hag"
             },
             {
-                "description": "The Pit-Hag chooses a player & a character. If they chose a character that is not in play: Put the Pit-Hag to sleep. Wake the target. Show the YOU ARE token & their new character token."
+                "description": "The Pit-Hag chooses a player & a character. If they chose a character that is not in play: \n\tPut the Pit-Hag to sleep. Wake the target. Show the YOU ARE token & their new character token."
             },
             {
                 "default_alignment": "Evil"
@@ -1377,7 +1377,7 @@
                 "order_pos": 22
             }
         ],
-        "scarlet_woman": [
+        "scarletwoman": [
             {
                 "name": "Scarlet Woman"
             },
@@ -1410,7 +1410,7 @@
                 "name": "Exorcist"
             },
             {
-                "description": "The Exorcist chooses a player. \u26ab Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the THIS CHARACTER SELECTED YOU & Exorcist tokens. Point to the Exorcist."
+                "description": "The Exorcist chooses a player. \u26ab Put the Exorcist to sleep. If the Exorcist chose the Demon:\n\t Wake the Demon. Show the THIS CHARACTER SELECTED YOU & Exorcist tokens. Point to the Exorcist."
             },
             {
                 "default_alignment": "Good"
@@ -1452,7 +1452,7 @@
                 "name": "Imp"
             },
             {
-                "description": "The Imp chooses a player. \u26ab If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the YOU ARE token, then show the Imp token."
+                "description": "The Imp chooses a player. \u26ab If the Imp chose themselves: \n\tReplace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the YOU ARE token, then show the Imp token."
             },
             {
                 "default_alignment": "Evil"
@@ -1480,7 +1480,7 @@
                 "name": "Pukka"
             },
             {
-                "description": "The Pukka chooses a player. \u26ab The previouslt poisoned player dies then becomes healthy. \u26ab"
+                "description": "The Pukka chooses a player. \u26ab The previously poisoned player dies then becomes healthy. \u26ab"
             },
             {
                 "default_alignment": "Evil"
@@ -1517,12 +1517,12 @@
                 "order_pos": 33
             }
         ],
-        "fang_gu": [
+        "fanggu": [
             {
                 "name": "Fang Gu"
             },
             {
-                "description": "The Fang Gu chooses a player. \u26ab If they chose an Outsider (once only): Replace the Outsider token with the spare Fang Gu token. Put the Fang Gu token to sleep. Wake the target. Show the YOU ARE and Fang Gu tokens & give a thumbs-down. \u26ab"
+                "description": "The Fang Gu chooses a player. \u26ab If they chose an Outsider (once only): \n\tReplace the Outsider token with the spare Fang Gu token. Put the Fang Gu token to sleep. Wake the target. Show the YOU ARE and Fang Gu tokens & give a thumbs-down. \u26ab"
             },
             {
                 "default_alignment": "Evil"
@@ -1531,7 +1531,7 @@
                 "order_pos": 34
             }
         ],
-        "no_dashii": [
+        "nodashii": [
             {
                 "name": "No Dashii"
             },
@@ -1587,7 +1587,7 @@
                 "order_pos": 39
             }
         ],
-        "al-hadikhia": [
+        "alhadikhia": [
             {
                 "name": "Al-Hadikhia"
             },
@@ -1615,7 +1615,7 @@
                 "order_pos": 41
             }
         ],
-        "lil_monsta": [
+        "lilmonsta": [
             {
                 "name": "Lil' Monsta"
             },
@@ -1760,7 +1760,7 @@
                 "name": "Huntsman"
             },
             {
-                "description": "The Huntsman might choose a player. \u26ab If that player was the Damsel: Put the Huntsman to sleep. Wake the Damsel and show them the YOU ARE info token and their new character token."
+                "description": "The Huntsman might choose a player. \u26ab If that player was the Damsel: \n\tPut the Huntsman to sleep. Wake the Damsel and show them the YOU ARE info token and their new character token."
             },
             {
                 "default_alignment": "Good"
@@ -1881,7 +1881,7 @@
                 "order_pos": 63
             }
         ],
-        "fortune_teller": [
+        "fortuneteller": [
             {
                 "name": "Fortune Teller"
             },
@@ -1937,7 +1937,7 @@
                 "order_pos": 67
             }
         ],
-        "town_crier": [
+        "towncrier": [
             {
                 "name": "Town Crier"
             },
@@ -2021,7 +2021,7 @@
                 "order_pos": 74
             }
         ],
-        "bounty_hunter": [
+        "bountyhunter": [
             {
                 "name": "Bounty Hunter"
             },
@@ -2049,7 +2049,7 @@
                 "order_pos": 76
             }
         ],
-        "cult_leader": [
+        "cultleader": [
             {
                 "name": "Cult Leader"
             },
@@ -2091,7 +2091,7 @@
                 "order_pos": 79
             }
         ],
-        "high_priestess": [
+        "highpriestess": [
             {
                 "name": "High Priestess"
             },
@@ -2194,7 +2194,7 @@
                 "name": "Travelers"
             },
             {
-                "description": "Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+                "description": "Tell any new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: \n\tShow the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
             },
             {
                 "default_alignment": "Neither"
@@ -2217,7 +2217,7 @@
                 "order_pos": 44
             }
         ],
-        "village_idiot": [
+        "villageidiot": [
             {
                 "name": "Village Idiot"
             },
@@ -2273,7 +2273,7 @@
                 "order_pos": 52
             }
         ],
-        "lord_of_typhon": [
+        "lordoftyphon": [
             {
                 "name": "Lord Of Typhon"
             },

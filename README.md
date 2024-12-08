@@ -12,11 +12,12 @@ To use this, make sure you have the following
 as of 12/7/2024, with a night order instruction. 
 3) The Input_Json_files folder within the folder you have the python script. 
 4) An Output_CSV_files folder within the folder you have the python script.
+5) An Output_Night_Order_Sheets within the folder you have the python script.
 5) The BOTC JSON scripts that you wish to turn into night order. The current iteration only supports the new format for JSON scripts (the same format received from script.bloodontheclocktower.com)
 
 ## Custom Night Order Files
-Occassionally, a user may want to create a homebrew character that wakes at night, or use a whole script full of them. Never fear, this
-tool can accomodate! The second question asked of the prompt will be asking if you want to use a custom night order. Simply enter 1 and 
+Occasionally, a user may want to create a homebrew character that wakes at night, or use a whole script full of them. Never fear, this
+tool can accommodate! The second question asked of the prompt will be asking if you want to use a custom night order. Simply enter 1 and 
 then it will prompt you to enter in a file name. Enter in a valid file name or the program will crash, you have been warned. 
 
 If you are creating a character sheet with none of the official characters, I strongly recommend using the night_template.json file as a 
@@ -67,5 +68,8 @@ out of.
 
 It will then output the name of the script, then ask if it is a Teensyville script or a full script. If you enter '0' for a Teensyville script,
 this will just add the characters to the night order chart on the script, dusk, and dawn. If you enter '1' for a full script, this will add 
-everything in the Teensyville script, a night order position for all Travellers, and Minion and Demon info steps. It will output the csv file
-into the Output_CSV_files folder. From there you can take it and format it however you wish. 
+everything in the Teensyville script, a night order position for all Travellers, and Minion and Demon info steps. 
+
+Then finally there is a prompt asking how tall your printable page is. This is not the full length of your paper. This assumes legal paper (8.5" Width by 14" Height) and roughly 10.5-11 inches of that is printable. However if you want to make it shorter because it's a Teensyville or you want to stretch the limits, the option is there. The output will be spit out to Output_Night_Order_Sheets/<SCRIPT>_Formatted_Night.docx
+
+However if you do not think the formatting here is what you want and you want to just have the raw information and do it yourself, the csv file with just the night order information is output to Output_CSV_files/<SCRIPT>_Night_Order.csv

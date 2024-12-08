@@ -1,37 +1,44 @@
 Dusk ,|,"Start the night."
-Travelers ,|,"Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+Travelers ,|,"Tell any new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: 
+	Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
 Philosopher ,|,"The Philosopher might choose a character. If necessary, swap their character token. ⚫"
 Minion Info ,|,"If there are 7 or more players, wake all Minions: Show the THIS IS THE DEMON token. Point to the Demon. Show the THESE ARE YOUR MINIONS token. Point to the other Minions."
 Lunatic ,|,"If there are 7 or more players, wake the Lunatic: Show the THESE ARE YOUR MINIONS token. Point to any players. Show the THESE CHARACTERS ARE NOT IN PLAY token. Show 3 good character tokens. Put the Lunatic to sleep. Wake the Demon. Show the YOU ARE info token and the Demon token. Show the THIS PLAYER IS info token and the Lunatic token, then point to the Lunatic."
 Demon Info ,|,"If there are 7 or more players, wake the Demon: Show the THESE ARE YOUR MINIONS token. Point to all Minions. Show the THESE CHARACTERS ARE NOT IN PLAY token Show 3 not-in-play good characters."
 Widow ,|,"Show the Grimoire for as long as the Widow needs. The Widow chooses a player. ⚫"
+Snake Charmer ,|,"The Snake Charmer chooses a player. If they chose the Demon: 
+	Show the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. ⚫"
 Godfather ,|,"Show the character tokens of all in-play Outsiders"
 Cerenovus ,|,"The Cerenovus chooses a player & a character. ⚫ Put the Cerenovus to sleep. Wake the target. Show the THIS CHARACTER HAS SELECTED YOU token, the Cerenovus token, then the madness-character token."
 Amnesiac ,|,""
 Investigator ,|,"Show the Minion character token. Point to both the MINION and WRONG players."
 Chef ,|,"Give a finger signal."
+Fortune Teller ,|,"The Fortune Teller chooses 2 players. Nod if either is the Demon (or the RED HERRING)."
 Grandmother ,|,"Point to the grandchild player & show their character token."
 Dreamer ,|,"The Dreamer points to a player. Show 1 good and 1 evil character token, 1 of which is their character."
 Balloonist ,|,"Show any player. ⚫"
 Dawn ,|,"Wait for a few seconds. End the Night Phase."
 
-
-
-
-
 Dusk ,|,"Start the night."
-Travelers ,|,"Tell and new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
+Travelers ,|,"Tell any new travelers their alignment by showing the YOU ARE token and a thumbs up or down. If they are evil: 
+	Show the THIS IS THE DEMON token. Point to the Demon. Any night actions by travelers should be done now. "
 Philosopher ,|,"The Philosopher might choose a character. If necessary, swap their character token. ⚫"
 Gambler ,|,"The Gambler chooses a player & a character. ⚫"
+Snake Charmer ,|,"The Snake Charmer chooses a player. If they chose the Demon: 
+	Show the YOU ARE & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the YOU ARE and Snake Charmer tokens & give a thumbs up. ⚫"
 Cerenovus ,|,"The Cerenovus chooses a player & a character. ⚫ Put the Cerenovus to sleep. Wake the target. Show the THIS CHARACTER HAS SELECTED YOU token, the Cerenovus token, then the madness-character token."
 Lunatic ,|,"Do whatever needs to be done to simulate the Demon acting. Put the Lunatic to sleep. Wake the Demon. Show the Lunatic token & point to them, then their target(s)."
-Imp ,|,"The Imp chooses a player. ⚫ If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the YOU ARE token, then show the Imp token."
+Imp ,|,"The Imp chooses a player. ⚫ If the Imp chose themselves: 
+	Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the YOU ARE token, then show the Imp token."
+Fang Gu ,|,"The Fang Gu chooses a player. ⚫ If they chose an Outsider (once only): 
+	Replace the Outsider token with the spare Fang Gu token. Put the Fang Gu token to sleep. Wake the target. Show the YOU ARE and Fang Gu tokens & give a thumbs-down. ⚫"
 Vigormortis ,|,"The Vigormortis chooses a player. ⚫ If that player is a Minion, poison a neighboring Townsfolk. ⚫⚫"
 Godfather ,|,"If an Outsider died today, the Godfather chooses a player. ⚫"
 Sweetheart ,|,"If the Sweetheart died, a player became drunk immediately. If you haven't done this yet, do so now. ⚫"
 Amnesiac ,|,""
 Grandmother ,|,"If the grandchild was killed by the Demon, the Grandmother dies too. ⚫"
 Ravenkeeper ,|,"If the Ravenkeeper died tonight, the Ravenkeeper chooses a player. Show that player's character token."
+Fortune Teller ,|,"The Fortune Teller chooses 2 players. Nod if either is the Demon (or the RED HERRING)."
 Dreamer ,|,"The Dreamer points to a player. Show 1 good & 1 evil character token, 1 of which is their character."
 Balloonist ,|,"Show a player with a different character type to previously ⚫"
 Dawn ,|,"Wait for a few seconds. End the Night Phase."
