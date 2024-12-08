@@ -1,8 +1,9 @@
 import json
 
 import docx
-from docx.shared import Inches, RGBColor
+from docx.shared import Inches, RGBColor, Pt
 from docx.enum.table import WD_ALIGN_VERTICAL
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 import csv
 
@@ -247,6 +248,13 @@ def createDocument(filename):
             else:
                 other_night_instructions.append(row)
 
+    night_one_header = doc.add_paragraph()
+    night_one_header.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    n1runner = night_one_header.add_run(filename + " - First Night")
+    n1runner.bold = True
+    n1runner.font.size = Pt(16)
+
     # Initializing a table with 3 columns and column widths that make sense for the content going in each column.
     table_first_night = doc.add_table(rows=0, cols=3)
     table_first_night.allow_autofit = False
@@ -262,6 +270,8 @@ def createDocument(filename):
             format_text(text, i)
             row_cells[i].paragraphs[0].style.paragraph_format.space_after = 0
             row_cells[i].vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            if i == 0:
+                row_cells[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
 
     # Set the row height dependent on the printable height over the number of instructions
     for row in table_first_night.rows:
@@ -269,6 +279,12 @@ def createDocument(filename):
 
     # No matter what the other night is printed on a different page than the first night
     doc.add_page_break()
+    night_other_header = doc.add_paragraph()
+    night_other_header.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    onrunner = night_other_header.add_run(filename + " - Other Nights")
+    onrunner.bold = True
+    onrunner.font.size = Pt(16)
 
     # Initializing a table with 3 columns and column widths that make sense for the content going in each column.
     table_other_night = doc.add_table(rows=0, cols=3)
@@ -284,6 +300,8 @@ def createDocument(filename):
             text = row_cells[i].paragraphs[0].add_run(instruction[i])
             format_text(text, i)
             row_cells[i].vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+            if i == 0:
+                row_cells[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
 
     # Set the row height dependent on the printable height over the number of instructions
     for row in table_other_night.rows:
@@ -295,9 +313,9 @@ def createDocument(filename):
 
 choice = int(input("Would you like to 1) add a character to the night order or 2) create a night order chart: "))
 
-# if int(input("Do you want to do this to a custom character list (1) or the default (0): ")) != 0:
-# night_file_name = input("Enter the custom character list filename: ")
-# night_file = json.load(open(night_file_name, 'r'))
+if int(input("Do you want to do this to a custom character list (1) or the default (0): ")) != 0:
+    night_file_name = input("Enter the custom character list filename: ")
+    night_file = json.load(open(night_file_name, 'r'))
 
 
 init_characters()
