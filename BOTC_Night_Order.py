@@ -5,6 +5,9 @@ from docx.shared import Inches, RGBColor, Pt
 from docx.enum.table import WD_ALIGN_VERTICAL
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
+from docx.oxml.ns import nsdecls
+from docx.oxml import parse_xml
+
 import csv
 
 file_name = ""
@@ -262,6 +265,7 @@ def createDocument(filename):
     table_first_night.columns[1].width = Inches(0.2)
     table_first_night.columns[2].width = Inches(6.1)
 
+    shaded = True
     # Add each set of instructions to the table and format it correctly
     for instruction in first_night_instructions:
         row_cells = table_first_night.add_row().cells
@@ -272,6 +276,11 @@ def createDocument(filename):
             row_cells[i].vertical_alignment = WD_ALIGN_VERTICAL.CENTER
             if i == 0:
                 row_cells[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            if shaded:
+                shading = parse_xml(r'<w:shd {} w:fill="D3D3D3"/>'.format(nsdecls('w')))
+                row_cells[i]._tc.get_or_add_tcPr().append(shading)
+
+        shaded = not shaded
 
     # Set the row height dependent on the printable height over the number of instructions
     for row in table_first_night.rows:
@@ -293,6 +302,7 @@ def createDocument(filename):
     table_other_night.columns[1].width = Inches(0.2)
     table_other_night.columns[2].width = Inches(6.1)
 
+    shaded = True
     # Add each set of instructions to the table and format it correctly
     for instruction in other_night_instructions:
         row_cells = table_other_night.add_row().cells
@@ -302,6 +312,10 @@ def createDocument(filename):
             row_cells[i].vertical_alignment = WD_ALIGN_VERTICAL.CENTER
             if i == 0:
                 row_cells[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            if shaded:
+                shading = parse_xml(r'<w:shd {} w:fill="D3D3D3"/>'.format(nsdecls('w')))
+                row_cells[i]._tc.get_or_add_tcPr().append(shading)
+        shaded = not shaded
 
     # Set the row height dependent on the printable height over the number of instructions
     for row in table_other_night.rows:
