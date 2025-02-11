@@ -206,7 +206,7 @@
                 "name": "Poppy Grower"
             },
             {
-                "description": "Do not do the Minion Info & Demon Info steps. Wake the Demon, show the THESE CHARACTERS ARE NOT IN PLAY info token & any three good character tokens that are not in play."
+                "description": "Do not do the Minion Info & Demon Info steps. Wake the Demon, show the THESE CHARACTERS ARE NOT IN PLAY info token & any 3 good character tokens that are not in play."
             },
             {
                 "default_alignment": "Good"
@@ -248,7 +248,7 @@
                 "name": "Snitch"
             },
             {
-                "description": "Wake each Minion. Show the THESE CHARACTERS ARE NOT IN PLAY token & three not-in-play character tokens. Put each Minion to sleep."
+                "description": "Wake each Minion. Show the THESE CHARACTERS ARE NOT IN PLAY token & 3 not-in-play character tokens. Put each Minion to sleep."
             },
             {
                 "default_alignment": "Good"
@@ -332,7 +332,7 @@
                 "name": "Engineer"
             },
             {
-                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a targer, show them the YOU ARE token & their new character token, then put that target to sleep. Repeat for all players that changed characters."
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a target, show them the YOU ARE token & their new character token, then put that target to sleep. Repeat for all players that changed characters."
             },
             {
                 "default_alignment": "Good"
@@ -528,7 +528,7 @@
                 "name": "Harpy"
             },
             {
-                "description": "The Harpy chooses two players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
+                "description": "The Harpy chooses 2 players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
             },
             {
                 "default_alignment": "Evil"
@@ -780,7 +780,7 @@
                 "name": "Knight"
             },
             {
-                "description": "Point to the two non-Demon players marked KNOW."
+                "description": "Point to the 2 non-Demon players marked KNOW."
             },
             {
                 "default_alignment": "Good"
@@ -794,7 +794,7 @@
                 "name": "Noble"
             },
             {
-                "description": "Point to all three players marked KNOW."
+                "description": "Point to all 3 players marked KNOW."
             },
             {
                 "default_alignment": "Good"
@@ -1188,7 +1188,7 @@
                 "name": "Engineer"
             },
             {
-                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a targer, show them the YOU ARE token & their new character token, then put that target to sleep. Repeat for all players that changed characters."
+                "description": "The Engineer might choose Minions or Demons. \u26ab If they do: \n\tPut the Engineer to sleep. Wake a target, show them the YOU ARE token & their new character token, then put that target to sleep. Repeat for all players that changed characters."
             },
             {
                 "default_alignment": "Good"
@@ -1370,7 +1370,7 @@
                 "name": "Harpy"
             },
             {
-                "description": "The Harpy chooses two players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
+                "description": "The Harpy chooses 2 players. \u26ab\u26ab Put the Harpy to sleep. Wake the 1st target. Show the THIS CHARACTER SELECTED YOU token, the Harpy token, then point to the 2nd target."
             },
             {
                 "default_alignment": "Evil"
@@ -1608,7 +1608,7 @@
                 "name": "Al-Hadikhia"
             },
             {
-                "description": "The Al-Hadikhia chooses three players. \u26ab\u26ab\u26ab Wake the player marked 1 & say 'The Al-Hadikhia has chosen', then the player's name, then 'Do you choose to live?' They either nod or shake their head. Put them to sleep & add or remove shrouds accordingly. Repeat for players marked 2 & 3. If all three players are now alive, add a shroud to all three."
+                "description": "The Al-Hadikhia chooses 3 players. \u26ab\u26ab\u26ab Wake the player marked 1 & say 'The Al-Hadikhia has chosen', then the player's name, then 'Do you choose to live?' They either nod or shake their head. Put them to sleep & add or remove shrouds accordingly. Repeat for players marked 2 & 3. If all three players are now alive, add a shroud to all three."
             },
             {
                 "default_alignment": "Evil"
