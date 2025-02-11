@@ -9,7 +9,7 @@ This is a fan project and is no way officially affiliated with The Pandemonium I
 To use this, make sure you have the following
 1) The python script itself as well as Python 3 installed on your development environment. 
 2) The night.json file provided within the same folder as the python script. This has an entry for every character currently released 
-as of 12/7/2024, with a night order instruction. 
+as of 1/3/2025, with a night order instruction. 
 3) The Input_Json_files folder within the folder you have the python script. 
 4) An Output_CSV_files folder within the folder you have the python script.
 5) An Output_Night_Order_Sheets within the folder you have the python script.
