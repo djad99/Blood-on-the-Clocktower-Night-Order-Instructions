@@ -1608,7 +1608,7 @@
                 "name": "Al-Hadikhia"
             },
             {
-                "description": "The Al-Hadikhia chooses 3 players. \u26ab\u26ab\u26ab Wake the player marked 1 & say 'The Al-Hadikhia has chosen', then the player's name, then 'Do you choose to live?' They either nod or shake their head. Put them to sleep & add or remove shrouds accordingly. Repeat for players marked 2 & 3. If all three players are now alive, add a shroud to all three."
+                "description": "The Al-Hadikhia chooses 3 players. \u26ab\u26ab\u26ab Wake the player marked 1 & say 'The Al-Hadikhia has chosen', then the player's name, then 'Do you choose to live?' They either nod or shake their head. Put them to sleep & add or remove shrouds accordingly. Repeat for players marked 2 & 3. If all 3 players are now alive, add a shroud to all 3."
             },
             {
                 "default_alignment": "Evil"
