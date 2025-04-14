@@ -102,7 +102,7 @@ def create_night_order(file_name_begin):
     found_character("dawn")
 
     # adding full script info if it's a full script
-    if (int(input("Is this a Teensyville (0) or a full script (1): "))) == 1:
+    if 'y' not in input("Is this a Teensyville script? "):
         found_character("demon_info")
         found_character("minion_info")
         found_character("travelers")
@@ -136,6 +136,7 @@ def add_character():
     first_night_order_pos = ""
     other_night_description = ""
     other_night_order_pos = ""
+
 
     if nights != 2:
         first_night_description = input("New Character First Night Description: ")
@@ -325,16 +326,21 @@ def createDocument(filename):
     doc.save("Output_Night_Order_Sheets/" + filename + "_Formatted_Night.docx")
 
 
-choice = int(input("Would you like to 1) add a character to the night order or 2) create a night order chart: "))
 
-if int(input("Do you want to do this to a custom character list (1) or the default (0): ")) != 0:
+add_char = False
+choice = input("Would you like to add a character to the night order? ")
+if 'y' in choice.lower():
+    add_char = True
+
+
+if 'y' in input("Do you want to do this to a custom character list? "):
     night_file_name = input("Enter the custom character list filename: ")
     night_file = json.load(open(night_file_name, 'r'))
 
 
 init_characters()
 
-if choice == 1:
+if add_char:
     add_character()
 else:
     file_name = input("Enter the script file name: ")
