@@ -954,7 +954,7 @@
                 "default_alignment": "Neither"
             },
             {
-                "order_pos": 67
+                "order_pos": 68
             }
         ],
         "leviathan": [
@@ -968,7 +968,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 68
+                "order_pos": 69
             }
         ],
         "vizier": [
@@ -982,7 +982,7 @@
                 "default_alignment": "Evil"
             },
             {
-                "order_pos": 69
+                "order_pos": 70
             }
         ],
         "travelers": [
